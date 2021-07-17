@@ -1,3 +1,4 @@
+# This Config Allows EFly, Burrow, Phase, Bhop, NoFall (And Everything A Normal Anarchy Would Allow)
 savebackconfig: true
 configversion:
   notify: false
