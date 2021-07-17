@@ -124,7 +124,7 @@ checks:
       active: false
       actions: vl>4 cancel vl>50 log:bvisible:0:10:i cancel
   blockplace:
-    active: false
+    active: defualt
     against:
       active: false
       actions: cancel
@@ -156,7 +156,7 @@ checks:
       actions: cancel vl>10 log:noswing:0:7:i cancel
     speed:
       active: true
-      interval: 90
+      interval: 70
       actions: cancel vl>150 log:bpspeed:3:5:i cancel vl>400 cancel vl>500 cancel vl>600 cancel
       improbable:
         feedonly: true
